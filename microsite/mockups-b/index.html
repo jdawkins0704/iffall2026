@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>coffee — Coffee Drinks</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <header class="site-header">
+            <a class="site-name" href="#">
+                <span class="coffee-bean" aria-hidden="true"></span>
+                <span>coffee</span>
+            </a>
+            <nav aria-label="Page sections">
+                <a href="#basics">The basics</a>
+                <a href="#espresso">Espresso drinks</a>
+                <a href="#cold">Cold coffee</a>
+                <a href="#world">Around the world</a>
+            </nav>
+        </header>
+
+        <main id="main">
+            <section class="intro" aria-labelledby="page-title">
+                <div class="intro-copy">
+                    <p class="small-label">An illustrated guide to coffee drinks</p>
+                    <h1 id="page-title">A closer look<br>at <em>coffee.</em></h1>
+                    <p>Learn what goes into your usual order, how it is made, and where other coffee traditions might take you.</p>
+                    <a class="coffee-button" href="#espresso">Compare the drinks <span aria-hidden="true">↗</span></a>
+                </div>
+                <figure class="featured-cup">
+                    <p class="figure-label">Inside a cappuccino</p>
+                    <div class="hero-diagram">
+                        <div class="cup-picture cappuccino large-cup" role="img" aria-label="Cappuccino: simplified ingredient layers">
+                            <div class="steam" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="cup">
+                                <div class="cup-layers">
+                                    <span class="foam"></span>
+                                    <span class="milk"></span>
+                                    <span class="espresso"></span>
+                                </div>
+                            </div>
+                            <div class="saucer"></div>
+                        </div>
+                        <ul class="cup-labels" aria-label="Layers from top to bottom">
+                            <li>Milk foam</li>
+                            <li>Steamed milk</li>
+                            <li>Espresso</li>
+                        </ul>
+                    </div>
+                    <figcaption>Espresso, steamed milk, and a generous layer of foam.</figcaption>
+                </figure>
+            </section>
+
+            <section id="basics" class="content-section">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">The basics</p>
+                        <h2>How coffee is brewed</h2>
+                    </div>
+                    <p>Pressure, gravity, or time. Each method gives you a different starting point.</p>
+                </div>
+                <div class="method-grid">
+                    <article class="method">
+                        <p class="method-label">Under pressure</p>
+                        <h3>Espresso</h3>
+                        <p>Hot water is pushed through finely ground coffee under pressure. The result is a small, concentrated drink.</p>
+                    </article>
+                    <article class="method">
+                        <p class="method-label">Through a filter</p>
+                        <h3>Drip coffee</h3>
+                        <p>Water passes through ground coffee and a filter. Gravity carries the brewed coffee into the pot below.</p>
+                    </article>
+                    <article class="method">
+                        <p class="method-label">Slowly steeped</p>
+                        <h3>Cold brew</h3>
+                        <p>Coffee steeps in cool water over an extended period, then the grounds are filtered out.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="espresso" class="content-section espresso-section">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">Compare the cups</p>
+                        <h2>Espresso drinks</h2>
+                    </div>
+                    <p>Start with espresso. Change the milk, water, or foam.</p>
+                </div>
+                <ul class="ingredient-key" aria-label="Diagram color key">
+                    <li><span class="espresso-color" aria-hidden="true"></span>Espresso</li>
+                    <li><span class="milk-color" aria-hidden="true"></span>Steamed milk</li>
+                    <li><span class="foam-color" aria-hidden="true"></span>Milk foam</li>
+                    <li><span class="water-color" aria-hidden="true"></span>Water</li>
+                </ul>
+                <div class="drink-grid">
+                    <article class="drink">
+                        <div class="drink-picture">
+                            <div class="cup-picture latte" role="img" aria-label="Latte: simplified ingredient layers">
+                                <div class="steam" aria-hidden="true">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="cup">
+                                    <div class="cup-layers">
+                                        <span class="foam"></span>
+                                        <span class="milk"></span>
+                                        <span class="espresso"></span>
+                                    </div>
+                                </div>
+                                <div class="saucer"></div>
+                            </div>
+                        </div>
+                        <div class="drink-text">
+                            <h3>Latte</h3>
+                            <p class="drink-caption">More milk, a little foam</p>
+                            <p>Mostly steamed milk, with espresso underneath and a thin layer of foam.</p>
+                            <p class="ingredients">Espresso · Steamed milk · A little foam</p>
+                            <details>
+                                <summary>Origin and preparation</summary>
+                                <p>Caffè latte means “milk coffee” in Italian. Pour steamed milk into espresso, then finish with a thin layer of foam.</p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="drink">
+                        <div class="drink-picture">
+                            <div class="cup-picture cappuccino" role="img" aria-label="Cappuccino: simplified ingredient layers">
+                                <div class="steam" aria-hidden="true">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="cup">
+                                    <div class="cup-layers">
+                                        <span class="foam"></span>
+                                        <span class="milk"></span>
+                                        <span class="espresso"></span>
+                                    </div>
+                                </div>
+                                <div class="saucer"></div>
+                            </div>
+                        </div>
+                        <div class="drink-text">
+                            <h3>Cappuccino</h3>
+                            <p class="drink-caption">A thicker layer of foam</p>
+                            <p>The same ingredients as a latte, with a more noticeable layer of foam.</p>
+                            <p class="ingredients">Espresso · Steamed milk · Milk foam</p>
+                            <details>
+                                <summary>Origin and preparation</summary>
+                                <p>Closely associated with Italian coffee culture. Prepare espresso, steam and aerate the milk, then pour it over the coffee with a generous layer of foam.</p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="drink">
+                        <div class="drink-picture">
+                            <div class="cup-picture americano" role="img" aria-label="Americano: simplified ingredient layers">
+                                <div class="steam" aria-hidden="true">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="cup">
+                                    <div class="cup-layers">
+                                        <span class="foam"></span>
+                                        <span class="milk"></span>
+                                        <span class="espresso"></span>
+                                    </div>
+                                </div>
+                                <div class="saucer"></div>
+                            </div>
+                        </div>
+                        <div class="drink-text">
+                            <h3>Americano</h3>
+                            <p class="drink-caption">Espresso and hot water</p>
+                            <p>Espresso diluted with hot water. No milk is needed.</p>
+                            <p class="ingredients">Espresso · Hot water</p>
+                            <details>
+                                <summary>Origin and preparation</summary>
+                                <p>Part of the espresso-based café tradition. Combine espresso and hot water to the strength you prefer.</p>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="drink">
+                        <div class="drink-picture">
+                            <div class="cup-picture macchiato" role="img" aria-label="Macchiato: simplified ingredient layers">
+                                <div class="steam" aria-hidden="true">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="cup">
+                                    <div class="cup-layers">
+                                        <span class="foam"></span>
+                                        <span class="milk"></span>
+                                        <span class="espresso"></span>
+                                    </div>
+                                </div>
+                                <div class="saucer"></div>
+                            </div>
+                        </div>
+                        <div class="drink-text">
+                            <h3>Macchiato</h3>
+                            <p class="drink-caption">Just a small mark of milk</p>
+                            <p>Espresso with a small amount of foamed milk on top.</p>
+                            <p class="ingredients">Espresso · A little foamed milk</p>
+                            <details>
+                                <summary>Origin and preparation</summary>
+                                <p>Macchiato means “marked” or “stained” in Italian. Prepare espresso and add a small amount of foamed milk.</p>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p class="diagram-note">The diagrams show general differences, not exact recipes. Proportions vary.</p>
+                <aside class="comparison-note">
+                    <h3>Latte or cappuccino?</h3>
+                    <p>Both combine espresso and milk. The latte puts more emphasis on steamed milk; the cappuccino has a more noticeable layer of foam.</p>
+                </aside>
+            </section>
+
+            <section id="cold" class="content-section">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">Served over ice</p>
+                        <h2>The colder side of coffee</h2>
+                    </div>
+                    <p>Iced coffee and cold brew are made differently. Here is the distinction.</p>
+                </div>
+                <div class="cold-layout">
+                    <div class="cold-illustration" role="img" aria-label="Illustration of a glass of iced coffee">
+                        <div class="iced-glass">
+                            <span class="ice ice-one"></span>
+                            <span class="ice ice-two"></span>
+                            <span class="ice ice-three"></span>
+                        </div>
+                        <p>Coffee, cooled.</p>
+                    </div>
+                    <div class="cold-notes">
+                        <article>
+                            <h3>Iced coffee</h3>
+                            <p>Coffee brewed hot, cooled, and served over ice. Add milk or sweetener if you like.</p>
+                        </article>
+                        <article>
+                            <h3>Cold brew</h3>
+                            <p>Brewed with cool water rather than hot water. Strain the grounds, then serve cold.</p>
+                        </article>
+                        <article>
+                            <h3>Frappé</h3>
+                            <p>In the Greek-style drink, instant coffee and water are shaken into foam, then served with ice.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="world" class="content-section">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">Around the world</p>
+                        <h2>Three coffee traditions</h2>
+                    </div>
+                    <p>Different ingredients, tools, and ways of serving.</p>
+                </div>
+                <div class="world-list">
+                    <article class="world-drink">
+                        <p class="place">Vietnam</p>
+                        <h3>Vietnamese<br> iced coffee</h3>
+                        <p>Coffee drips through a phin filter, is mixed with sweetened condensed milk, and is served over ice.</p>
+                    </article>
+                    <article class="world-drink">
+                        <p class="place">Turkey</p>
+                        <h3>Turkish coffee</h3>
+                        <p>Very finely ground coffee is heated with water in a small pot. It is served unfiltered, allowing the grounds to settle.</p>
+                    </article>
+                    <article class="world-drink">
+                        <p class="place">Italy</p>
+                        <h3>Affogato</h3>
+                        <p>A scoop of gelato with hot espresso poured over it. Its name means “drowned.”</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Coffee drinks · Communication Design</p>
+            <a href="https://en.wikipedia.org/wiki/List_of_coffee_drinks">Source: List of coffee drinks</a>
+            <a href="#">Back to top ↑</a>
+        </footer>
+    </body>
+</html>
