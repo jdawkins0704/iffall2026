@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+    <title>Americano ingredient illustration</title>
+    <defs>
+        <clipPath id="inside">
+            <path d="M79 115 Q146 111 224 116 L219 229 Q218 252 189 259 Q137 264 104 253 Q88 250 85 230 Z"/>
+        </clipPath>
+    </defs>
+    <g transform="rotate(-1 160 180)">
+        <!-- Loose steam and a lightly sketched saucer -->
+        <g fill="none" stroke="#986c4e" stroke-linecap="round">
+            <path d="M126 77 C109 63 139 55 126 38" stroke-width="2.1"/>
+            <path d="M164 71 C150 57 177 47 165 29" stroke-width="2.6"/>
+            <path d="M193 82 C184 73 198 66 197 57" stroke-width="1.5"/>
+            <path d="M55 280 C77 273 207 271 249 282 C264 288 214 298 157 297 C98 298 46 288 55 280 Z" stroke-width="2.1"/>
+            <path d="M76 293 Q151 308 236 292" stroke-width="1.1"/>
+        </g>
+        <!-- Mug and handle -->
+        <path d="M234 136 C284 122 286 174 268 199 Q253 220 230 216 M237 147 C269 140 272 169 257 190 Q246 204 232 204" fill="none" stroke="#663e2b" stroke-width="3.6" stroke-linecap="round"/>
+        <path d="M68 104 Q141 99 234 105 L229 229 C228 253 214 266 192 269 Q139 274 100 263 Q77 258 75 231 Z" fill="#fff9ec" stroke="#663e2b" stroke-width="3.2" stroke-linejoin="round"/>
+        <g clip-path="url(#inside)">
+            <path d="M79 115 Q146 111 224 116 L219 229 Q218 252 189 259 Q137 264 104 253 Q88 250 85 230 Z" fill="#fffdf4"/>
+            <path d="M40 110 Q107 105 157 111 T260 109 V290 H40 Z" fill="#a6b9b3"/>
+            <path d="M40 221 Q111 226 169 219 T260 222 V290 H40 Z" fill="#62402b"/>
+            
+        </g>
+        <path d="M72 107 Q145 114 231 107" fill="none" stroke="#986c4e" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M82 214 Q82 242 94 252 M92 256 l7 4 M205 262 l9 -5" fill="none" stroke="#b58c66" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+</svg>

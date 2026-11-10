@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>coffee</title>
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <header class="site-header">
+            <a class="site-name" href="index.html">
+                <span class="coffee-bean" aria-hidden="true"></span>
+                <span>coffee</span>
+            </a>
+            <nav aria-label="Main navigation">
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="basics.html">Coffee basics</a>
+                <a href="espresso.html">Espresso drinks</a>
+                <a href="cold.html">Cold coffee</a>
+                <a href="world.html">Around the world</a>
+            </nav>
+        </header>
+
+        <main id="main">
+            <section class="intro" aria-labelledby="page-title">
+                <div class="intro-copy">
+                    <h1 id="page-title">a closer look at coffee</h1>
+                    <p>Find out what goes into your favorite coffee drinks, how they’re made, and how they’re served around the world.</p>
+                    <a class="coffee-button" href="espresso.html">Compare the drinks</a>
+                </div>
+                <figure class="featured-cup">
+                    <p class="figure-label">Inside a cappuccino</p>
+                    <div class="hero-diagram">
+                        <img class="cup-illustration large-cup" src="images/cappuccino.svg" width="320" height="320" alt="Illustrated cappuccino with milk foam, steamed milk, and espresso.">
+                        <ul class="cup-labels" aria-label="Layers from top to bottom">
+                            <li><span class="foam-color" aria-hidden="true"></span>Milk foam</li>
+                            <li><span class="milk-color" aria-hidden="true"></span>Steamed milk</li>
+                            <li><span class="espresso-color" aria-hidden="true"></span>Espresso</li>
+                        </ul>
+                    </div>
+                    <figcaption>Espresso, steamed milk, and a generous layer of foam.</figcaption>
+                </figure>
+            </section>
+
+            <section class="content-section home-topics" aria-labelledby="explore-title">
+                <h2 id="explore-title">Explore the guide</h2>
+                <div class="topic-grid">
+                    <article class="topic">
+                        <h3><a href="basics.html">Coffee basics</a></h3>
+                        <p>See how pressure, gravity, and time change the way coffee is brewed.</p>
+                    </article>
+                    <article class="topic">
+                        <h3><a href="espresso.html">Espresso drinks</a></h3>
+                        <p>Compare what’s in a latte, cappuccino, Americano, and macchiato.</p>
+                    </article>
+                    <article class="topic">
+                        <h3><a href="cold.html">Cold coffee</a></h3>
+                        <p>Learn the differences between iced coffee, cold brew, and a frappé.</p>
+                    </article>
+                    <article class="topic">
+                        <h3><a href="world.html">Around the world</a></h3>
+                        <p>Explore three coffee traditions from Vietnam, Turkey, and Italy.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Coffee drinks | Communication Design</p>
+            <p>Sources: <a href="https://en.wikipedia.org/wiki/List_of_coffee_drinks">List of coffee drinks</a></p>
+        </footer>
+    </body>
+</html>
+

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360">
+    <title>Iced coffee illustration</title>
+    <defs>
+        <clipPath id="glass">
+            <path d="M87 80 Q151 75 227 80 L211 290 Q158 303 106 288 Z"/>
+        </clipPath>
+    </defs>
+    <g transform="rotate(-3 160 180)">
+        <path d="M185 155 L215 34 L242 22" fill="none" stroke="#8f694d" stroke-width="8" stroke-linecap="round"/>
+        <path d="M187 155 L218 36 L242 24" fill="none" stroke="#f8e7cd" stroke-width="2" stroke-linecap="round"/>
+        <path d="M78 70 Q149 62 236 69 L221 289 Q218 308 158 312 Q107 311 98 296 Z" fill="#fff9ec" stroke="#663e2b" stroke-width="3.3" stroke-linejoin="round"/>
+        <g clip-path="url(#glass)">
+            <path d="M75 107 Q155 99 240 111 V320 H75 Z" fill="#a7774b"/>
+            <path d="M75 235 Q126 220 166 237 T240 229 V320 H75 Z" fill="#785033"/>
+            <g fill="#e5d8bd" fill-opacity=".85" stroke="#fff9ec" stroke-width="2">
+                <path d="M100 110 Q121 100 140 103 L150 142 Q130 151 111 151 Z"/>
+                <path d="M166 122 L207 129 Q211 149 200 170 L163 162 Z"/>
+                <path d="M123 178 Q146 169 165 174 L173 209 L134 217 Z"/>
+            </g>
+        </g>
+        <path d="M80 71 Q148 84 234 70 M88 91 L103 265 M112 296 Q161 309 208 296" fill="none" stroke="#b28b69" stroke-width="1.7" stroke-linecap="round"/>
+        <path d="M75 325 Q157 337 233 322 M95 333 Q154 342 210 332" fill="none" stroke="#986c4e" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+</svg>
