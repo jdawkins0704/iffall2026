@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+    <title>Cappuccino ingredient illustration</title>
+    <defs>
+        <clipPath id="inside">
+            <path d="M76 115 Q143 110 226 115 C223 157 224 204 214 235 Q210 254 188 258 Q131 262 104 254 C88 249 85 230 82 210 Z"/>
+        </clipPath>
+    </defs>
+    <g transform="rotate(-2 160 180)">
+        <!-- Loose steam and a lightly sketched saucer -->
+        <g fill="none" stroke="#986c4e" stroke-linecap="round">
+            <path d="M126 77 C109 63 139 55 126 38" stroke-width="2.1"/>
+            <path d="M164 71 C150 57 177 47 165 29" stroke-width="2.6"/>
+            <path d="M193 82 C184 73 198 66 197 57" stroke-width="1.5"/>
+            <path d="M55 280 C77 273 207 271 249 282 C264 288 214 298 157 297 C98 298 46 288 55 280 Z" stroke-width="2.1"/>
+            <path d="M76 293 Q151 308 236 292" stroke-width="1.1"/>
+        </g>
+        <!-- Mug and handle -->
+        <path d="M237 137 C284 125 290 180 261 207 Q245 222 231 218 M239 147 C271 141 275 177 255 196 Q244 205 234 206" fill="none" stroke="#663e2b" stroke-width="3.6" stroke-linecap="round"/>
+        <path d="M65 106 Q146 98 237 106 C234 144 235 200 224 236 Q219 265 191 268 Q132 274 100 263 C80 257 75 234 72 212 Z" fill="#fff9ec" stroke="#663e2b" stroke-width="3.2" stroke-linejoin="round"/>
+        <g clip-path="url(#inside)">
+            <path d="M76 115 Q143 110 226 115 C223 157 224 204 214 235 Q210 254 188 258 Q131 262 104 254 C88 249 85 230 82 210 Z" fill="#fffdf4"/>
+            <path d="M40 162 Q107 157 157 163 T260 161 V290 H40 Z" fill="#d1ad7e"/>
+            <path d="M40 210 Q111 215 169 208 T260 211 V290 H40 Z" fill="#62402b"/>
+            <path d="M107 127 l1 0 M125 122 l1 0 M164 128 l1 0 M190 123 l1 0" stroke="#d5b995" stroke-width="2.3" stroke-linecap="round"/>
+        </g>
+        <path d="M68 108 Q146 115 235 107" fill="none" stroke="#986c4e" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M82 214 Q82 242 94 252 M92 256 l7 4 M205 262 l9 -5" fill="none" stroke="#b58c66" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+</svg>

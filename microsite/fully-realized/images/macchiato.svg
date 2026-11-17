@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+    <title>Macchiato ingredient illustration</title>
+    <defs>
+        <clipPath id="inside">
+            <path d="M99 154 Q151 149 203 155 L199 232 Q196 251 181 256 Q147 262 120 251 Q106 247 104 228 Z"/>
+        </clipPath>
+    </defs>
+    <g transform="rotate(2 160 180)">
+        <!-- Loose steam and a lightly sketched saucer -->
+        <g fill="none" stroke="#986c4e" stroke-linecap="round">
+            <path d="M126 77 C109 63 139 55 126 38" stroke-width="2.1"/>
+            <path d="M164 71 C150 57 177 47 165 29" stroke-width="2.6"/>
+            <path d="M193 82 C184 73 198 66 197 57" stroke-width="1.5"/>
+            <path d="M55 280 C77 273 207 271 249 282 C264 288 214 298 157 297 C98 298 46 288 55 280 Z" stroke-width="2.1"/>
+            <path d="M76 293 Q151 308 236 292" stroke-width="1.1"/>
+        </g>
+        <!-- Mug and handle -->
+        <path d="M212 167 C247 155 268 182 250 211 Q236 231 209 224 M215 178 C241 169 250 186 240 202 Q230 215 211 214" fill="none" stroke="#663e2b" stroke-width="3.6" stroke-linecap="round"/>
+        <path d="M89 144 Q151 138 213 145 L209 232 Q205 260 185 266 Q145 272 116 261 Q96 254 94 231 Z" fill="#fff9ec" stroke="#663e2b" stroke-width="3.2" stroke-linejoin="round"/>
+        <g clip-path="url(#inside)">
+            <path d="M99 154 Q151 149 203 155 L199 232 Q196 251 181 256 Q147 262 120 251 Q106 247 104 228 Z" fill="#fffdf4"/>
+            <path d="M40 155 Q130 147 245 154 V290 H40 Z" fill="#62402b"/>
+            <path d="M128 154 C140 144 178 144 187 154 C192 164 170 174 146 168 C131 167 122 161 128 154 Z" fill="#fffdf4"/>
+            
+        </g>
+        <path d="M92 146 Q149 153 211 146" fill="none" stroke="#986c4e" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M82 214 Q82 242 94 252 M92 256 l7 4 M205 262 l9 -5" fill="none" stroke="#b58c66" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+</svg>
