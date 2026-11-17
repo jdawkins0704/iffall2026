@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+    <title>Latte ingredient illustration</title>
+    <defs>
+        <clipPath id="inside">
+            <path d="M88 101 Q152 96 212 103 L208 231 Q208 255 186 260 Q148 265 112 260 Q94 256 92 232 Z"/>
+        </clipPath>
+    </defs>
+    <g transform="rotate(2 160 180)">
+        <!-- Loose steam and a lightly sketched saucer -->
+        <g fill="none" stroke="#986c4e" stroke-linecap="round">
+            <path d="M126 77 C109 63 139 55 126 38" stroke-width="2.1"/>
+            <path d="M164 71 C150 57 177 47 165 29" stroke-width="2.6"/>
+            <path d="M193 82 C184 73 198 66 197 57" stroke-width="1.5"/>
+            <path d="M55 280 C77 273 207 271 249 282 C264 288 214 298 157 297 C98 298 46 288 55 280 Z" stroke-width="2.1"/>
+            <path d="M76 293 Q151 308 236 292" stroke-width="1.1"/>
+        </g>
+        <!-- Mug and handle -->
+        <path d="M222 129 C266 123 280 165 257 200 Q243 218 219 214 M225 140 C255 136 263 163 247 188 Q238 201 220 202" fill="none" stroke="#663e2b" stroke-width="3.6" stroke-linecap="round"/>
+        <path d="M78 90 Q151 86 222 94 L218 232 Q218 264 190 270 Q147 277 109 269 C88 266 82 251 82 230 Z" fill="#fff9ec" stroke="#663e2b" stroke-width="3.2" stroke-linejoin="round"/>
+        <g clip-path="url(#inside)">
+            <path d="M88 101 Q152 96 212 103 L208 231 Q208 255 186 260 Q148 265 112 260 Q94 256 92 232 Z" fill="#fffdf4"/>
+            <path d="M40 130 Q107 125 157 131 T260 129 V290 H40 Z" fill="#d1ad7e"/>
+            <path d="M40 226 Q111 231 169 224 T260 227 V290 H40 Z" fill="#62402b"/>
+            <path d="M107 127 l1 0 M125 122 l1 0 M164 128 l1 0 M190 123 l1 0" stroke="#d5b995" stroke-width="2.3" stroke-linecap="round"/>
+        </g>
+        <path d="M80 92 Q147 100 220 94" fill="none" stroke="#986c4e" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M82 214 Q82 242 94 252 M92 256 l7 4 M205 262 l9 -5" fill="none" stroke="#b58c66" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+</svg>
